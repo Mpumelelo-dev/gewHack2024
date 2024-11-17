@@ -1,8 +1,25 @@
-# Getting Started with Create React App
+# Getting Started with Create React App for Global Enterprenuer Week Hackathon challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I Was learning how to build a react website using firebase for realtime database
 
-## Available Scripts
+#Overview of the project
+this a digital platform designed to revolutionize stokvel savings groups by addressing common challenges such as security, transparency, and financial literacy. This app aims to modernize traditional savings circles through technology, ensuring safer and more efficient savings practices for communities.
+
+Key Features
+Secure Digital Transactions: Eliminate the need for cash handling by facilitating contributions, payouts, and savings tracking online.
+Automated Record-Keeping: Track member contributions, payouts, and group savings effortlessly.
+Financial Literacy Modules: Empower users with education on savings, investments, and business growth.
+Reminders and Notifications: Keep members informed with automated reminders for payments and meetings.
+Community Integration: Explore stokvel opportunities and events within your area.
+Why ZakaCircle?
+Traditional stokvels are essential to community economies but are often exposed to risks like theft, mismanagement, and lack of growth strategies. ZakaCircle provides:
+
+A secure alternative to cash handling.
+Tools to enhance transparency and trust among members.
+Resources to help stokvels grow and reinvest their savings for greater financial impact.
+
+
+## MATERIAL I USED FOR LEARNING AND IMPLEMENTATION
 
 In the project directory, you can run:
 
