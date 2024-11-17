@@ -6,7 +6,9 @@ I Was learning how to build a react website using firebase for realtime database
 
 this a digital platform designed to revolutionize stokvel savings groups by addressing common challenges such as security, transparency, and financial literacy. This app aims to modernize traditional savings circles through technology, ensuring safer and more efficient savings practices for communities.
 
-Key Features
+**Key Features**
+
+
 Secure Digital Transactions: Eliminate the need for cash handling by facilitating contributions, payouts, and savings tracking online.
 Automated Record-Keeping: Track member contributions, payouts, and group savings effortlessly.
 Financial Literacy Modules: Empower users with education on savings, investments, and business growth.
