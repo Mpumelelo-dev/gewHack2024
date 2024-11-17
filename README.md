@@ -2,7 +2,7 @@
 
 I Was learning how to build a react website using firebase for realtime database
 
-#Overview of the project
+**Overview of the project**
 this a digital platform designed to revolutionize stokvel savings groups by addressing common challenges such as security, transparency, and financial literacy. This app aims to modernize traditional savings circles through technology, ensuring safer and more efficient savings practices for communities.
 
 Key Features
