@@ -1,0 +1,53 @@
+/* JoinStokvelForm.module.css */
+.container {
+    padding: 20px;
+    background-color: #181717;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .message {
+    color: rgb(1, 66, 1);
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .stokvelList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stokvelItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  
+  .joinButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .joinButton:hover {
+    background-color: #0056b3;
+  }
+  .form
+  {
+    background-color: #cccccc00;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .form h2,h3,p
+  {
+    color: rgb(245, 247, 248);
+  }
+  .message{
+    margin-top: 5%;
+  }

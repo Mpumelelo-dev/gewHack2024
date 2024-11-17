@@ -1,0 +1,82 @@
+/* ManageStokvel.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .stokvel, .request {
+    background-color: #1c1b1b4e;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stokvel h4, .request p {
+    margin: 0 0 10px;
+  }
+  
+  .stokvel p {
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .button, .removeButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 40px;
+  }
+  
+  .button:hover, .removeButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .removeButton {
+    background-color: #dc3545;
+  }
+  
+  .removeButton:hover {
+    background-color: #c82333;
+  }
+  
+  .message {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+  }

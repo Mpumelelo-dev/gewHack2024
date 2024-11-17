@@ -1,0 +1,87 @@
+/* LoginPage.module.css */
+.loginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255, 252, 252);
+    background: url('../background.jpg') no-repeat center center fixed; /* Ensure the path is correct */
+    background-size: cover;
+    margin-top: 50px;
+  margin-bottom: 90px;
+  color: #ffffff;
+  }
+  
+  .header {
+    background-color: #07070765;  /* dark blue */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 0px; /* Space between header and form */
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .form {
+    margin-top: 20px; /* Space before the form */
+    margin-bottom: 20px; /* Space after the form */
+  }
+  
+  .formHeading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #034079; /* Match the header color */
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  .input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #050505;
+    border-radius: 9px;
+  }
+  
+  .loginButton {
+    width: 30%;
+    padding: 10px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Space at the bottom of the form */
+    margin-left: 30%;
+  }
+  
+  .loginButton:hover {
+    background-color: #005f8a;
+  }

@@ -1,0 +1,41 @@
+/* CreateStokvelForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f93a;
+  }
+  
+  .input, .select, .button, .textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  .container h2
+  {
+    color: #fcfdff;
+  }

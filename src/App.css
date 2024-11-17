@@ -1,0 +1,259 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('./background.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0000008c;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgb(253, 253, 253); /* Optional shadow */
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 180px; /* Adjust logo size */
+  margin-left: 0;
+}
+
+.navbar img {
+  width: 80px; /* Adjust size */
+  height: 80px; /* Adjust size */
+  border-radius: 20%; /* Almond/oval shape */
+}
+
+/* Header Styles */
+.header {
+  background-color: #bbc5cf05;  /* dark blue */
+  color: white;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.header-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* Call to Action Button */
+.cta-button {
+  background-color: #0078d4;  /* light blue */
+  color: white;
+  padding: 5px 10px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(250, 249, 249, 0.993), 0 4px 16px rgba(0, 0, 0, 0.986);
+}
+
+.cta-button:hover {
+  background-color: #005f8a;  /* darker blue */
+}
+
+/* Footer Styles */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #0c0c0c88;
+  color: white;
+  margin-top: auto;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #f0f8ff;
+  margin-bottom: 80px;
+}
+
+.hero-content {
+  margin-left: 40px;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* About Section */
+.about-container {
+  background: rgba(255, 254, 254, 0.171); /* semi-transparent background */
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(3, 3, 235, 0.993), 0 4px 16px rgba(0, 0, 0, 0.986);
+  padding: 30px;
+  width: 80%;
+  max-width: 2000px;
+  text-align: left;
+  transform: translateY(10px);
+  align-content: center;
+  margin-left: 120px;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+.about-container:hover {
+  transform: translateY(-10px);
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  color: #e7dede;
+  margin: 20px 0;
+}
+
+.about-container .email {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2b5ab6;
+}
+
+/* Services Section */
+.service-container {
+  background: rgba(8, 8, 8, 0.171); /* semi-transparent background */
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.993), 0 4px 16px rgba(0, 0, 0, 0.986);
+  padding: 30px;
+  width: 40%;
+  max-width: 2000px;
+  text-align: left;
+  transform: translateY(0px);
+  align-content: center;
+  margin-left: 600px;
+  z-index: 10;
+}
+
+/* Dropdown Button Styling */
+.dropdown-button {
+  background-color: #008CBA;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+ margin-left: 5%;
+ border-radius: 50px;
+ box-shadow: 0 4px 8px rgba(2, 5, 179, 0.993), 0 4px 16px rgba(0, 0, 0, 0.986);
+
+}
+
+.dropdown-button:hover {
+  background-color: #006f8b;
+}
+
+/* Dropdown Content Styling */
+.dropdown-content {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.767);
+  min-width: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.945);
+  z-index: 1;
+  width: 600px;
+  
+}
+
+.dropdown-content p {
+  padding: 12px 16px;
+  color: black;
+  margin-top: 20px;
+}
+
+.dropdown-content p:hover {
+  background-color: #ddddddb9;
+}
+
+/* Financial Literacy Section */
+#financial-literacy {
+  background-color: #f7f7f7;
+  padding: 40px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.financial-literacy-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.financial-literacy-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 0px;
+  color: #0056b3;
+}
+
+.financial-literacy-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #333;
+  align-content: flex-start;
+}
+
+.btn-join {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-join:hover {
+  background-color: #0056b3;
+}

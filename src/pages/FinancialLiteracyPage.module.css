@@ -1,0 +1,45 @@
+/* FinancialLiteracyPage.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0000007e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
+    margin-top: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #faf8f8;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .quiz {
+    margin-top: 20px;
+  }
+  
+  .optionButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .optionButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    text-align: center;
+  }
